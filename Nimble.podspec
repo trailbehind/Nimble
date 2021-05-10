@@ -9,6 +9,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "Apache 2.0", :file => "LICENSE" }
   s.author       = "Quick Contributors"
   s.ios.deployment_target = "9.0"
+  s.watchos.deployment_target = "2.0"
   s.osx.deployment_target = "10.10"
   s.tvos.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/Quick/Nimble.git",
